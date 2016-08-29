@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CardDetailDemo</string>
+
+    <string name="drag_desc">本品为半合成的14元环大环内酯类抗生素。抗菌谱与抗菌作用基本上与红霉素相仿，对革兰阳性菌的作用较红霉素略差，对嗜肺军团菌的作用较红霉素强。\n对肺炎衣原体、肺炎支原体、溶脲脲原体的抗微生物作用与红霉素相仿或略强。\n本品可透过细菌细胞膜，在接近供体（“P”位）与细菌核糖体的50S亚基成可逆性结合，阻断了转移核糖核酸（t-RNA）结合至“P”位上，同时也阻断了多肽链自受位（“A” 位）至“P”位的转移，因而细菌蛋白质合成受到抑制。</string>
+    <string name="drag_pharmacy_list_title">可在线购买该药物的网站</string>
+    <string name="drag_pharmacy_list_desc">价格仅供参考，具体请以购买页面为准；价格不含运费\n厂商：重庆科瑞制药  规格：0.15g*6/盒</string>
+
+    <string name="check_desc">引起女性生殖道炎症的病原体不外乎两大来源，即来自原本寄生于阴道内的菌群，或来自外界入侵的病原体。\n正常情况下，阴道内以阴道杆菌占优势，还有少量厌氧菌、支原体及念珠菌，这些菌群形成一种正常的生态平衡。\n但是，当人体免疫力低下、内分泌激素发生变化，或外来因素如组织损伤。</string>
+    <string name="check_hospital_list_title">可提供该检查项目的机构</string>
+    <string name="check_hospital_list_desc">价格仅供参考，具体请以当地医疗机构公布的信息为准；价格不含报销</string>
+    <string name="check_hospital_list_pos">北京</string>
+    <string name="check_hospital_address">北京市海淀区学院路甲5号768创业园进门左拐右手边直走再 左走6号门牌 500m</string>
+    <string name="check_hospital_phone">010&#8211;82260199</string>
+
+    <string name="operation_desc">阑尾切除术用于急性阑尾炎的治疗。在一般情况下手术操作较容易，但有时也很困难，如异位阑尾。因此，绝不能认为阑尾炎是“小病”，阑尾切除术是“小手术”。必须予以重视，以提高治疗效果，避免或减少术后并发症和后遗症的发生。\n急性阑尾炎是外科很常见的一种疾病。 阑尾切除术是最为普通、常行的手术之一，但有时很困难，因此，对每一例手术均须认真对待。急性阑尾炎是小儿最常见的急腹症。</string>
+    <string name="operation_hospital_list_title">可提供该手术的机构</string>
+    <string name="operation_hospital_list_desc">价格仅供参考，具体请以当地医疗机构公布的信息为准；价格不含报销</string>
+    <string name="operation_hospital_list_pos">北京</string>
+    <string name="operation_hospital_address">北京市海淀区学院路甲5号768创业园进门左拐右手边直走再 左走6号门牌 500m</string>
+    <string name="operation_hospital_phone">010&#8211;82260199</string>
+    <string name="operation_hospital_list_2_title">擅长该手术的医生</string>
+
+</resources>

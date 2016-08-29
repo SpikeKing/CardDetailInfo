@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,RtlHardcoded">
+
+    <View
+        android:id="@+id/detail_hospital_v_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/divider_line"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/main_horizontal_margin"
+        android:paddingRight="@dimen/main_horizontal_margin">
+
+        <TextView
+            android:id="@+id/detail_hospital_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_horizontal_margin"
+            android:textColor="@color/text_title"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="北京大学第三医院"/>
+
+        <TextView
+            android:id="@+id/detail_hospital_tv_tag_1"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="@dimen/main_horizontal_margin"
+            android:layout_toRightOf="@id/detail_hospital_tv_name"
+            android:background="@drawable/bkg_yellow"
+            android:paddingLeft="2dp"
+            android:layout_alignBaseline="@+id/detail_hospital_tv_name"
+            android:paddingRight="2dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:visibility="gone"
+            tools:text="三甲医院"
+            tools:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/detail_hospital_tv_tag_2"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="3dp"
+            android:layout_alignBaseline="@+id/detail_hospital_tv_name"
+            android:layout_marginTop="@dimen/main_horizontal_margin"
+            android:layout_toRightOf="@id/detail_hospital_tv_tag_1"
+            android:background="@drawable/bkg_yellow"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:visibility="gone"
+            tools:text="医保"
+            tools:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/detail_hospital_tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_hospital_tv_name"
+            android:layout_marginTop="@dimen/main_horizontal_margin"
+            android:lineSpacingExtra="2dp"
+            android:textColor="@color/text_content_2"
+            android:textSize="13sp"
+            tools:text="@string/check_hospital_address"/>
+
+        <RelativeLayout
+            android:id="@+id/detail_hospital_rl_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_hospital_tv_address"
+            android:layout_marginTop="@dimen/main_horizontal_margin">
+
+            <TextView
+                android:id="@+id/detail_hospital_tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_content_2"
+                android:textSize="13sp"
+                tools:ignore="RelativeOverlap"
+                tools:text="@string/check_hospital_phone"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_hospital_phone"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/detail_hospital_tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/detail_hospital_rl_phone"
+            android:layout_marginBottom="@dimen/main_horizontal_margin"
+            android:layout_marginTop="@dimen/main_horizontal_margin"
+            android:background="@drawable/bkg_gray"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            tools:text="@string/check_hospital_phone">
+
+            <TextView
+                android:id="@+id/detail_hospital_tv_price_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bkg_gray"
+                android:text="检测项目价格"
+                android:textColor="@color/text_title"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/detail_hospital_tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/detail_hospital_tv_price_tag"
+                android:background="@drawable/bkg_gray"
+                android:text="¥999"
+                android:textColor="@color/main_orange"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/detail_hospital_iv_item_more"
+                android:text="了解更多"
+                android:textColor="@color/text_content_2"
+                android:textSize="13sp"/>
+
+            <ImageView
+                android:id="@+id/detail_hospital_iv_item_more"
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_arrow_right"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

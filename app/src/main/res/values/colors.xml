@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--ActionBar的颜色-->
+    <color name="action_bar_bkg">#FBFBFB</color>
+    <color name="action_bar_text">#323232</color>
+    <color name="divider_line">#DBDBDB</color>
+
+    <!--主要绿色-->
+    <color name="main_green">#39D167</color>
+    <color name="main_orange">#FF6134</color>
+    <color name="main_bkg">#F1F1F1</color>
+
+    <!--文字颜色-->
+    <color name="text_title">#323232</color>
+    <color name="text_content">#666666</color>
+    <color name="text_content_2">#999999</color>
+    <color name="text_hint">#C2C2C2</color>
+
+
+</resources>
